@@ -1,4 +1,3 @@
-# LABORATORIO 5 CVDS
+# LABORATORIO 8 CVDS
 ## Nombres 
-   - Daniel Santiago Zabala
    - David Eduardo Valencia
