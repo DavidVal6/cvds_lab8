@@ -1,11 +1,14 @@
 
 package edu.eci.cvds.servlet.backingBean;
+import org.springframework.stereotype.Component;
+
 import javax.faces.bean.ManagedBean;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Random;
 import javax.faces.bean.SessionScoped;
 
+@Component
 @ManagedBean(name = "guessBean")
 @SessionScoped
 public class GuessBean implements Serializable{
