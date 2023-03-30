@@ -1,10 +1,9 @@
 
-package com.game.backingBean;
+package edu.eci.cvds.servlet.backingBean;
 import javax.faces.bean.ManagedBean;
 import java.io.Serializable;
 import java.util.ArrayList;
 import java.util.Random;
-import javax.enterprise.context.ApplicationScoped;
 import javax.faces.bean.SessionScoped;
 
 @ManagedBean(name = "guessBean")
