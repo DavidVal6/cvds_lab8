@@ -67,21 +67,21 @@ public class GuessBean implements Serializable{
         if(numeroIntentos == 0){
             estado = "Comienza";
         }
-        if(estado.equals("Sin Ganador")){
+        if(estado.equals("Comienza")){
             if(numeroAdivinar == intento){
                 estado = "Gano" + premioActual;
                 restart();
             }
             else{
-                numeroIntentos++;
-                premioActual -= 10000;
-                estado = "Sin Ganador";
+                premioActual -= 1000;
+                estado = "Comienza";
                 historial.add(0,premioActual);
                 if (premioActual <= 0){
                     estado = "Perdiste Vulvelo a intentar";
                     restart();
                 }
             }
+            numeroIntentos++;
         }
    }
    @Bean
